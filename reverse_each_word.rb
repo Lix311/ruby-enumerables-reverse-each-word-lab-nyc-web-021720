@@ -2,7 +2,7 @@ require 'pry'
 
 def reverse_each_word(string)
 array = [string]  
-array.reverse   
+array.join(", ")   
   
   binding.pry 
 end 
